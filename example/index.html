@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Gifffer Example</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <style type="text/css">
+        body {
+            font-size: 20px;
+            font-family: Georgia;
+            margin: 0;
+            padding: 40px 0 40px 0;
+            text-align: center;
+        }
+        small {
+            display: block;
+            width: 600px;
+            text-align: center;
+            margin: 30px auto;
+        }
+        section {
+            width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+    <body>        
+        <h1>Gifffer</h1>
+        <small>Just click on the image below. <br />It's paused in the beginning animated Gif.</small>
+        <section>
+            <img data-gifffer="image.gif" />
+        </section>
+        <section>
+            <br /><br />
+            <a href="https://github.com/krasimir/gifffer">https://github.com/krasimir/gifffer</a>
+        </section>
+        <script type="text/javascript" src="../build/gifffer.min.js"></script>
+        <script>
+
+            window.onload = function() {
+                Gifffer();
+            }
+
+        </script>
+    </body>
+</html>
