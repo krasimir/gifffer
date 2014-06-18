@@ -1,13 +1,14 @@
-gifffer
-=======
+# Gifffer
 
-1K JavaScript library that prevents the autoplaying of the animated Gifs.
+---
+
+> 1K JavaScript library that prevents the autoplaying of the animated Gifs.
 
 ## Usage
 
 Include `gifffer.min.js` in your page.
 
-```js
+```html
 <script type="text/javascript" src="gifffer.min.js"></script>
 ```
 
@@ -28,3 +29,11 @@ window.onload = function() {
 ## Demo
 
 [http://work.krasimirtsonev.com/git/gifffer/example/](http://work.krasimirtsonev.com/git/gifffer/example/)
+
+## How it works
+
+It replaces your `<img>` tag with newly generated `<div>` that contains only the first frame (roughly) of your animated Gif. It creates a *play* button on top of it and when the element is clicked it returns the original image.
+
+## Compatibility
+
+Chrome, FF, Safari, Opera, IE9+
