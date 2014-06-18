@@ -37,3 +37,11 @@ It replaces your `<img>` tag with newly generated `<div>` that contains only the
 ## Compatibility
 
 Chrome, FF, Safari, Opera, IE9+
+
+## Side effects
+
+Your `<img>` tag becomes a block element.
+
+## TODO
+
+There should be a fallback if the browser doesn't support `createElement('canvas')`.
