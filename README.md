@@ -40,7 +40,7 @@ Chrome, FF, Safari, Opera, IE9+
 
 ## Side effects
 
-Your `<img>` tag becomes a block element.
+Your `<img>` tag is replaced by a `<div>`. Consider the fact that it is a block element.
 
 ## Inspiration
 
