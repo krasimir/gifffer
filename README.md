@@ -45,7 +45,3 @@ Your `<img>` tag becomes a block element.
 ## Inspiration
 
 [http://stackoverflow.com/a/4276742/642670](http://stackoverflow.com/a/4276742/642670)
-
-## TODO
-
-There should be a fallback if the browser doesn't support `createElement('canvas')`.
