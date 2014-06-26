@@ -30,6 +30,8 @@ Gifffer will show the controls immediately if you set `data-gifffer-width` and `
 
 	<img data-gifffer="image.gif" data-gifffer-width="250" data-gifffer-height="237" />
 
+Have in mind that the library keeps the value of the `class` and `id` attributes. They are applied to the newly created element.
+
 ## Demo
 
 [http://work.krasimirtsonev.com/git/gifffer/example/](http://work.krasimirtsonev.com/git/gifffer/example/)
