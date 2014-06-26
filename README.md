@@ -2,7 +2,7 @@
 
 ---
 
-> 1K JavaScript library that prevents the autoplaying of the animated Gifs.
+> 1.8K JavaScript library that prevents the autoplaying of the animated Gifs.
 
 ## Usage
 
@@ -25,6 +25,10 @@ window.onload = function() {
     Gifffer();
 }
 ```
+
+Gifffer will show the controls immediately if you set `data-gifffer-width` and `data-gifffer-height` even if the image is not fully loaded.
+
+	<img data-gifffer="image.gif" data-gifffer-width="250" data-gifffer-height="237" />
 
 ## Demo
 

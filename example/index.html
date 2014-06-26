@@ -22,16 +22,39 @@
             width: 600px;
             margin: 0 auto;
         }
+        hr {
+            max-width: 900px;
+            border-bottom: none;
+            margin: 20px auto 10px auto;
+        }
+        .image-big {
+            margin: 0 auto;
+        }
     </style>
     <body>        
         <h1>Gifffer</h1>
         <small>Just click on the image below. <br />It's paused in the beginning of the animated Gif.</small>
+        <hr />
         <section>
+            <p>1.1MB Gif<br />&lt;img data-gifffer="image.gif" /></p>
             <img data-gifffer="image.gif" />
         </section>
+        <hr />
+        <section>
+            <p>3.2MB Gif<br />&lt;img data-gifffer="image.gif" /></p>
+            <img data-gifffer="image-big.gif" class="image-big"/>
+        </section>
+        <hr />
+        <section>
+            <p>3.2MB Gif<br />&lt;img data-gifffer="image-big.gif"<br />data-gifffer-width="250" data-gifffer-height="237" /></p>
+            <img data-gifffer="image-big.gif" data-gifffer-width="250" data-gifffer-height="237" class="image-big"/>
+        </section>
+        <hr />
         <section>
             <br /><br />
             <a href="https://github.com/krasimir/gifffer">https://github.com/krasimir/gifffer</a>
+            <br /><br />
+            <a href="http://krasimirtsonev.com/blog/article/stop-autoplaying-your-gifs-stop-play-control">article: Stop autoplaying your Gifs</a>
         </section>
         <script type="text/javascript" src="../lib/gifffer.js"></script>
         <script>
