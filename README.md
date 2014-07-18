@@ -32,6 +32,10 @@ Gifffer will show the controls immediately if you set `data-gifffer-width` and `
 
 Have in mind that the library keeps the value of the `class` and `id` attributes. They are applied to the newly created element.
 
+If you want to stop the Gif and reset it to its original position use `data-gifffer-duration` (in milliseconds).
+
+	<img data-gifffer="image-big.gif" data-gifffer-duration="4000" data-gifffer-width="250" data-gifffer-height="237" /> 
+
 ## Demo
 
 [http://work.krasimirtsonev.com/git/gifffer/example/](http://work.krasimirtsonev.com/git/gifffer/example/)
