@@ -34,7 +34,7 @@ Have in mind that the library keeps the value of the `class` and `id` attributes
 
 If you want to stop the Gif and reset it to its original position use `data-gifffer-duration` (in milliseconds).
 
-	<img data-gifffer="image-big.gif" data-gifffer-duration="4000" data-gifffer-width="250" data-gifffer-height="237" /> 
+	<img data-gifffer="image.gif" data-gifffer-duration="4000" data-gifffer-width="250" data-gifffer-height="237" /> 
 
 ## Demo
 
