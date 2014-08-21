@@ -1,0 +1,20 @@
+{
+    "name": "gifffer",
+    "description": "1.8K JavaScript library that prevents the autoplaying of the animated Gifs",
+    "version": "0.0.1",
+    "license": "MIT",
+    "_source": "git://github.com/krasimir/gifffer.git",
+    "homepage": "https://github.com/krasimir/gifffer",
+    "main": "build/gifffer.min.js",
+    "keywords": [
+        "javascript",
+        "js",
+        "lib",
+        "gif"
+    ],
+    "ignore": [
+        "/.*",
+        "lib",
+        "example"
+    ]
+}
