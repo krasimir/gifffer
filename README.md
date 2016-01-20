@@ -2,7 +2,7 @@
 
 ---
 
-> 1.8K JavaScript library that prevents the autoplaying of the animated Gifs.
+> JavaScript library that prevents the autoplaying of the animated Gifs.
 
 ## Usage
 
@@ -18,23 +18,29 @@ Instead of setting `src` attribute on your image use `data-gifffer`.
 <img data-gifffer="image.gif" />
 ```
 
-At the end, call `Gifffer();` whenever you want. For example:
+At the end, call `Gifffer();` so you replace the normal gifs with playable gifs. For example:
 
 ```js
 window.onload = function() {
-    Gifffer();
+  Gifffer();
 }
 ```
 
 Gifffer will show the controls immediately if you set `data-gifffer-width` and `data-gifffer-height` even if the image is not fully loaded.
 
-	<img data-gifffer="image.gif" data-gifffer-width="250" data-gifffer-height="237" />
+```html
+<img data-gifffer="image.gif" data-gifffer-width="250" data-gifffer-height="237" />
+```
+
+*(`data-gifffer-width` accepts percentages value)*
 
 Have in mind that the library keeps the value of the `class` and `id` attributes. They are applied to the newly created element.
 
-If you want to stop the Gif and reset it to its original position use `data-gifffer-duration` (in milliseconds).
+If you want to stop the Gif and reset it to its original position afetr a given time interval use `data-gifffer-duration` (in milliseconds).
 
-	<img data-gifffer="image.gif" data-gifffer-duration="4000" data-gifffer-width="250" data-gifffer-height="237" /> 
+```
+<img data-gifffer="image.gif" data-gifffer-duration="4000" data-gifffer-width="250" data-gifffer-height="237" />
+```
 
 ## Demo
 

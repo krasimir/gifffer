@@ -1,0 +1,27 @@
+{
+  "name": "gifffer",
+  "version": "1.0.0",
+  "description": "JavaScript library that prevents the autoplaying of the animated Gifs",
+  "main": "lib/gifffer.js",
+  "dependencies": {},
+  "author": {
+    "name": "Krasimir Tsonev",
+    "email": "info@krasimirtsonev.com",
+    "url": "http://krasimirtsonev.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gif",
+    "player"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:krasimir/gifffer.git"
+  },
+  "scripts": {
+    "build": "uglifyjs ./lib/gifffer.js -o ./build/gifffer.min.js"
+  },
+  "devDependencies": {
+    "uglifyjs": "2.4.10"
+  }
+}

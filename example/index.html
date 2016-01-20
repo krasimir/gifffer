@@ -7,7 +7,7 @@
     <style type="text/css">
         body {
             font-size: 20px;
-            font-family: Georgia;
+            font-family: Verdana;
             margin: 0;
             padding: 40px 0 40px 0;
             text-align: center;
@@ -20,7 +20,8 @@
         }
         section {
             width: 600px;
-            margin: 0 auto;
+            margin: 30px auto 0 auto;
+            padding-bottom: 10px;
         }
         hr {
             max-width: 900px;
@@ -36,23 +37,22 @@
         <small>Just click on the image below. <br />It's paused in the beginning of the animated Gif.</small>
         <hr />
         <section>
-            <p>1.1MB Gif<br />&lt;img data-gifffer="image.gif" /></p>
+            <p>No parameters<br /><small>&lt;img data-gifffer="image.gif" /></small></p>
             <img data-gifffer="image.gif" />
         </section>
         <hr />
         <section>
-            <p>3.2MB Gif<br />&lt;img data-gifffer="image.gif" /></p>
-            <img data-gifffer="image-big.gif" class="image-big"/>
+            <p>Setting string size in pixels<br /><small>&lt;img data-gifffer="image-big.gif"<br />data-gifffer-width="250" data-gifffer-height="100" /></small></p>
+            <img data-gifffer="image-big.gif" data-gifffer-width="250" data-gifffer-height="100" class="image-big"/>
+        </section>
+        <section style="border:solid 1px #999;">
+            <p>Using percents<br /><small>&lt;img data-gifffer="image-big.gif" data-gifffer-width="33%" /></small></p>
+            <img data-gifffer="image-big.gif" data-gifffer-width=33%" class="image-big"/>
         </section>
         <hr />
         <section>
-            <p>3.2MB Gif<br />&lt;img data-gifffer="image-big.gif"<br />data-gifffer-width="250" data-gifffer-height="237" /></p>
-            <img data-gifffer="image-big.gif" data-gifffer-width="250" data-gifffer-height="237" class="image-big"/>
-        </section>
-        <hr />
-        <section>
-            <p>3.2MB Gif<br />&lt;img data-gifffer="image-big.gif"<br />data-gifffer-width="250" data-gifffer-height="237" /><br />data-gifffer-duration="4000"</p>
-            <img data-gifffer="image-big.gif" data-gifffer-duration="4000" data-gifffer-width="250" data-gifffer-height="237" class="image-big"/>
+            <p>Reset after 4000ms<br /><small>&lt;img data-gifffer="image-big.gif" data-gifffer-duration="4000" /></small></p>
+            <img data-gifffer="image-big.gif" data-gifffer-duration="4000" class="image-big"/>
         </section>
         <hr />
         <section>
