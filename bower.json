@@ -1,7 +1,7 @@
 {
     "name": "gifffer",
-    "description": "1.8K JavaScript library that prevents the autoplaying of the animated Gifs",
-    "version": "0.0.1",
+    "description": "JavaScript library that prevents the autoplaying of the animated Gifs",
+    "version": "1.0.0",
     "license": "MIT",
     "_source": "git://github.com/krasimir/gifffer.git",
     "homepage": "https://github.com/krasimir/gifffer",
