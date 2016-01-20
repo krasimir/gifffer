@@ -4,6 +4,10 @@
 
 > JavaScript library that prevents the autoplaying of the animated Gifs.
 
+## Demo
+
+[http://krasimir.github.io/gifffer](http://krasimir.github.io/gifffer)
+
 ## Usage
 
 Include `gifffer.min.js` in your page.
@@ -41,10 +45,6 @@ If you want to stop the Gif and reset it to its original position afetr a given 
 ```
 <img data-gifffer="image.gif" data-gifffer-duration="4000" data-gifffer-width="250" data-gifffer-height="237" />
 ```
-
-## Demo
-
-[http://work.krasimirtsonev.com/git/gifffer/example/](http://work.krasimirtsonev.com/git/gifffer/example/)
 
 ## How it works
 
