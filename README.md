@@ -38,7 +38,7 @@ window.onload = function() {
 
   setTimeout( function() {
     gifs[0].click(); //will play the first gif
-  }
+  }, 1000);
 }
 ```
 
