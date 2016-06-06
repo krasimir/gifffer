@@ -30,6 +30,18 @@ window.onload = function() {
 }
 ```
 
+The Gifffer function returns an array of nodes that could be used to simulate clicks. For Example:
+
+```js
+window.onload = function() {
+  var gifs = Gifffer();
+
+  setTimeout( function() {
+    gifs[0].click(); //will play the first gif
+  }, 1000);
+}
+```
+
 Gifffer will show the controls immediately if you set `data-gifffer-width` and `data-gifffer-height` even if the image is not fully loaded.
 
 ```html
