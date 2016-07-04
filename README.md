@@ -16,7 +16,7 @@ Include `gifffer.min.js` in your page.
 <script type="text/javascript" src="gifffer.min.js"></script>
 ```
 
-Instead of setting `src` attribute on your image use `data-gifffer`.  
+Instead of setting `src` attribute on your image use `data-gifffer`.
 
 ```html
 <img data-gifffer="image.gif" />
