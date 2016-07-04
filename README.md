@@ -16,7 +16,7 @@ Include `gifffer.min.js` in your page.
 <script type="text/javascript" src="gifffer.min.js"></script>
 ```
 
-Instead of setting `src` attribute on your image use `data-gifffer`.
+Instead of setting `src` attribute on your image use `data-gifffer`.  
 
 ```html
 <img data-gifffer="image.gif" />
@@ -28,6 +28,12 @@ At the end, call `Gifffer();` so you replace the normal gifs with playable gifs.
 window.onload = function() {
   Gifffer();
 }
+```
+
+For accessibility, instead of setting `alt` attribute on your image, you may use `data-gifffer-alt` (optional).
+
+```html
+<img data-gifffer="image.gif" data-gifffer-alt="some alt description"/>
 ```
 
 The Gifffer function returns an array of nodes that could be used to simulate clicks. For Example:
