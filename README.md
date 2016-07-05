@@ -30,6 +30,12 @@ window.onload = function() {
 }
 ```
 
+For accessibility, instead of setting `alt` attribute on your image, you may use `data-gifffer-alt` (optional).
+
+```html
+<img data-gifffer="image.gif" data-gifffer-alt="some alt description"/>
+```
+
 The Gifffer function returns an array of nodes that could be used to simulate clicks. For Example:
 
 ```js
