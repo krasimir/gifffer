@@ -30,7 +30,7 @@ window.onload = function() {
 }
 ```
 
-For accessibility, instead of setting `alt` attribute on your image, you may use `data-gifffer-alt` (optional).
+For accessibility reasons, instead of setting `alt` attribute on your image, you may use `data-gifffer-alt` (optional).
 
 ```html
 <img data-gifffer="image.gif" data-gifffer-alt="some alt description"/>
@@ -63,6 +63,37 @@ If you want to stop the Gif and reset it to its original position afetr a given 
 ```
 <img data-gifffer="image.gif" data-gifffer-duration="4000" data-gifffer-width="250" data-gifffer-height="237" />
 ```
+
+## Styling
+
+The `Gifffer()` function accepts a few options for styling:
+
+```
+Gifffer({
+  playButtonStyles: {
+    'width': '60px',
+    'height': '60px',
+    'border-radius': '30px',
+    'background': 'rgba(0, 0, 0, 0.3)',
+    'position': 'absolute',
+    'top': '50%',
+    'left': '50%',
+    'margin': '-30px 0 0 -30px'
+  },
+  playButtonIconStyles: {
+    'width': '0',
+    'height': '0',
+    'border-top': '14px solid transparent',
+    'border-bottom': '14px solid transparent',
+    'border-left': '14px solid rgba(0, 0, 0, 0.5)',
+    'position': 'absolute',
+    'left': '26px',
+    'top': '16px'
+  }
+});
+```
+
+That's about the *play* button. Note that if you decide to use `playButtonStyles` or `playButtonIconStyles` you have to provide the full style of the elements. For example providing only `{ top: '20px' }` property results in `top:20px;`.
 
 ## How it works
 
