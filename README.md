@@ -64,6 +64,28 @@ If you want to stop the Gif and reset it to its original position afetr a given 
 <img data-gifffer="image.gif" data-gifffer-duration="4000" data-gifffer-width="250" data-gifffer-height="237" />
 ```
 
+### Module Loading (Webpack or Angular ect)
+
+Install npm module
+
+```
+npm i --save gifffer
+```
+
+Import
+
+```
+import Gifffer from 'gifffer';
+
+let gifs = Gifffer();
+```
+
+### Typescript
+
+```
+npm i --save-dev @types/gifffer
+```
+
 ## Styling
 
 The `Gifffer()` function accepts a few options for styling:
