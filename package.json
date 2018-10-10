@@ -2,7 +2,7 @@
   "name": "gifffer",
   "version": "1.5.1",
   "description": "JavaScript library that prevents the autoplaying of the animated Gifs",
-  "main": "lib/gifffer.js",
+  "main": "build/gifffer.js",
   "dependencies": {},
   "author": {
     "name": "Krasimir Tsonev",
@@ -22,6 +22,6 @@
     "build": "uglifyjs ./lib/gifffer.js -o ./build/gifffer.min.js"
   },
   "devDependencies": {
-    "uglifyjs": "2.4.10"
+    "uglifyjs": "2.4.11"
   }
 }
