@@ -1,6 +1,6 @@
 {
   "name": "gifffer",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "JavaScript library that prevents the autoplaying of the animated Gifs",
   "main": "build/gifffer.min.js",
   "dependencies": {},
